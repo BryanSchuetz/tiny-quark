@@ -1,0 +1,9 @@
+
+{% capture content %}
+ <div class="post">
+  <h1 class="post-title">{{ current.title }}</h1>
+  <span class="post-date"><!-- {{ page.date | date_to_string }} --></span>
+  {{ body }}
+</div>
+{% endcapture %}
+{% include 'layouts/default' %}

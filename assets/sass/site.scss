@@ -1,0 +1,13 @@
+@import "poole";
+@import "syntax";
+@import "hyde";
+
+$sidebar-gray: #F6F6F6;
+
+
+.sidebar{
+  background-color: $sidebar-gray;
+  a{
+    color: black;
+  }
+}

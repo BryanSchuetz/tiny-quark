@@ -1,4 +1,4 @@
-{% capture content %}
+ {% capture content %}
 <div class="posts">
   {% for post in site.pages.posts.posts %}
   <div class="post">
@@ -15,9 +15,9 @@
   {% endfor %}
 </div>
 
-<div class="pagination">
+<!-- <div class="pagination">
   <a class="pagination-item older" href="">Older</a>
   <a class="pagination-item newer" href="">Newer</a>
-</div>
+</div> -->
 {% endcapture %}
 {% include 'layouts/default' %}
